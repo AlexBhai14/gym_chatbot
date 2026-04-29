@@ -1,9 +1,6 @@
-fastapi==0.111.0
-uvicorn==0.29.0
-sentence-transformers==2.7.0
-faiss-cpu==1.13.2
-transformers==4.41.0
-torch==2.10.0
-numpy==1.26.4
-accelerate==0.30.0
-huggingface-hub==0.23.0
+--no-cache-dir
+fastapi
+uvicorn
+faiss-cpu
+sentence-transformers==2.2.2
+huggingface_hub==0.14.1
